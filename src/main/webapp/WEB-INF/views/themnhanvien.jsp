@@ -109,7 +109,7 @@
                     console.log(response)
                     if (response === 'success') {
 
-
+                        window.location.href='http://localhost:8080/';
                         alert('Thêm thông tin nhân viên thành công');
                     } else {
                         alert('Mã nhân viên đã tồn tại');

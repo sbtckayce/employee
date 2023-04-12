@@ -119,7 +119,7 @@
                 success: function (response) {
                     console.log(response)
                     if (response === 'success') {
-
+                        window.location.href='http://localhost:8080/';
                         alert('Sửa thông tin nhân viên thành công');
                     } else {
                         alert('Mã nhân viên đã tồn tại');
